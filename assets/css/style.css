@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: disc; padding-left: 20px; }
+a { color:rgb(255, 0, 157); text-decoration: none;}
+.bar {
+    background-color: rgb(255, 241, 237);
+    padding:15px;
+    border-top: solid 1px rgb(255, 190, 180);
+    border-bottom: solid 1px rgb(255, 190, 180);
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px rgb(255, 190, 180);
+}
+.anchors {
+    border-left: solid 1px rgb(255, 190, 180);
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px rgb(255, 190, 180);
+}
+figure {
+    text-align: center;
+}
+.logo {
+    padding: 1.2%;
+    margin-left: 1.5vw;
+}
+h1, h2, h3 {
+    color: rgb(214, 94, 73);
+}
+footer p {
+    margin-left: 3vw;
+}
+
+main {
+    padding-bottom: 5vh;
+}
