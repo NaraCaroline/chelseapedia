@@ -1,4 +1,4 @@
-# ChelseapediaAdd commentMore actions
+# Chelseapedia
 
 Chelseapedia é uma página simples baseada na Wikipedia, feita para o projeto "Recriando a Wikipedia" da DIO.
 Ela é uma pequena wiki contendo informações da cantora neozelandesa Princess Chelsea.
